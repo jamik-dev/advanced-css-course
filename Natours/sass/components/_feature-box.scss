@@ -12,6 +12,7 @@
     margin-bottom: .5rem;
     display: inline-block;
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
   }

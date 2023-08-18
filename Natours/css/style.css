@@ -208,6 +208,7 @@ body {
     margin-bottom: .5rem;
     display: inline-block;
     background-image: linear-gradient(to right, #7ed56f, #28b485);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent; }
   .feature-box:hover {
@@ -269,6 +270,6 @@ body {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
-  margin: -10rem; }
+  margin-top: -10rem; }
   .section-features > * {
     transform: skewY(7deg); }
